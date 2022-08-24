@@ -30,6 +30,8 @@ export interface BSEProps {
     textAreaStyles?: any,
     textViewStyles: any,
     value?: string,
+    reference?: React.RefObject<HTMLTextAreaElement>,
+    setTextAreaInput?: any,
     optimizeBy?: WordingOptimization,
     active?: boolean,
     showSave?: boolean,
